@@ -1,0 +1,40 @@
+body {
+    height:100vh;
+    width:100vw;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+.wrapper {
+    height:100%;
+    width:100%;
+}
+.topper {
+    height:15%;
+    width:100%;
+    background-color: #1b2426;
+    padding: 10px 0;
+    color:snow;
+    font-size: 2em;
+}
+main {
+    height:70%;
+    width: 100%;
+    background-color: #ff8000;
+}
+.buttons_holder {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(70%);
+}
+.main_menu_button {
+    padding:0.5vw;
+    height:5vh;
+    width:7vw;
+    margin-top: 2vh;
+}
+footer {
+    height: 13.1%;
+    background-color: #1b2426;
+}
