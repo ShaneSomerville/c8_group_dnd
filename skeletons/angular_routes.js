@@ -14,7 +14,7 @@ app.config(function($routeProvider){
             templateUrl:'templates/char_creation.html'
         })
         .when('/intro', {
-            templateUrl:'templates/intro.html'
+            templateUrl:'templates/intro_base.html'
         })
         .when('/start_area', {
             templateUrl:'templates/start_area.html'
