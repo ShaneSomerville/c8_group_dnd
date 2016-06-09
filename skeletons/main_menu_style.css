@@ -4,6 +4,11 @@ body {
     margin:0;
     padding:0;
     text-align: center;
+    background-color: #ff8000;
+}
+.everything {
+    height:100%;
+    width:100%;
 }
 .wrapper {
     height:100%;
@@ -35,6 +40,6 @@ main {
     margin-top: 2vh;
 }
 footer {
-    height: 13.1%;
+    height: 13.5%;
     background-color: #1b2426;
 }
