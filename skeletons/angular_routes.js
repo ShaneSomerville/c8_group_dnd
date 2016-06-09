@@ -14,14 +14,14 @@ app.config(function($routeProvider){
             templateUrl:'templates/char_creation.html'
         })
         .when('/intro', {
-            templateUrl:'templates/intro_base.html'
+            templateUrl:'templates/intro.html'
         })
         .when('/start_area', {
             templateUrl:'templates/start_area.html'
         })
-        // .when('/', {
-        //     templateUrl:'templates/main_menu.html'
-        // })
+        .when('/settings', {
+            templateUrl:'templates/settings.html'
+        })
         // .when('/', {
         //     templateUrl:'templates/main_menu.html'
         // })
